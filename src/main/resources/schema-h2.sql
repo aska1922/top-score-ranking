@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS Score
+(
+  ID  	int        NOT NULL AUTO_INCREMENT,
+  CREATED    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PLAYER      varchar(256) NOT NULL,
+  SCORE   int unsigned,
+  TIME    datetime        NOT NULL,
+  PRIMARY KEY (ID)
+);
